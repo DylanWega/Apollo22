@@ -1,0 +1,6 @@
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb
