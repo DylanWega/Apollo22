@@ -31,9 +31,9 @@ namespace HotelTesting
             //creating test data to assign to the property
             testData = "Dylan";
             //addigning data to the property
-            customer.FirstName = testData;
+            customer.firstName = testData;
             //test to see if the two values are the same
-            Assert.AreEqual(testData, customer.FirstName);
+            Assert.AreEqual(testData, customer.firstName);
         }
 
         [TestMethod]
@@ -46,9 +46,9 @@ namespace HotelTesting
             //creating test data to assign to the property
             testData = "Wega";
             //addigning data to the property
-            customer.LastName = testData;
+            customer.lastName = testData;
             //test to see if the two values are the same
-            Assert.AreEqual(testData, customer.LastName);
+            Assert.AreEqual(testData, customer.lastName);
         }
 
         [TestMethod]
@@ -61,9 +61,9 @@ namespace HotelTesting
             //creating test data to assign to the property
             testData = "me@yahoo.com";
             //addigning data to the property
-            customer.Email = testData;
+            customer.email = testData;
             //test to see if the two values are the same
-            Assert.AreEqual(testData, customer.Email);
+            Assert.AreEqual(testData, customer.email);
         }
 
         [TestMethod]
@@ -76,9 +76,9 @@ namespace HotelTesting
             //creating test data to assign to the property
             testData = "237";
             //addigning data to the property
-            customer.PhoneNumber = testData;
+            customer.phoneNumber = testData;
             //test to see if the two values are the same
-            Assert.AreEqual(testData, customer.PhoneNumber);
+            Assert.AreEqual(testData, customer.phoneNumber);
         }
 
         [TestMethod]
@@ -87,13 +87,13 @@ namespace HotelTesting
             //creating an instance of the class we want to create
             clsCustomer customer = new clsCustomer();
             //declaring test data
-            string testData;
+            DateTime testData;
             //creating test data to assign to the property
-            testData = "01/01/1990";
+            testData = Convert.ToDateTime("01/01/1990");
             //addigning data to the property
-            customer.DateOfbirth = testData;
+            customer.dateOfbirth = testData;
             //test to see if the two values are the same
-            Assert.AreEqual(testData, customer.DateOfbirth);
+            Assert.AreEqual(testData, customer.dateOfbirth);
         }
 
         //Validation testing ///////////////////////////////////////////////
@@ -145,6 +145,7 @@ namespace HotelTesting
             Assert.AreEqual(Error, "");
         }
 
+        [TestMethod]
         public void ValidEmailOk()
         {
             //creating an instance of the class we want to create
@@ -215,7 +216,7 @@ namespace HotelTesting
             Found = customer.Find(customerID);
 
             //check the property
-            if (customer.CustomerID != 1)
+            if (customer.customerID != 1)
             {
                 OK = false;
             }
@@ -242,7 +243,7 @@ namespace HotelTesting
             Found = customer.Find(customerID);
 
             //check the property
-            if (customer.FirstName != "Tom")
+            if (customer.firstName != "Tom")
             {
                 OK = false;
             }
@@ -270,7 +271,7 @@ namespace HotelTesting
             Found = customer.Find(customerID);
 
             //check the property
-            if (customer.LastName != "Holland")
+            if (customer.lastName != "Holland")
             {
                 OK = false;
             }
@@ -298,7 +299,7 @@ namespace HotelTesting
             Found = customer.Find(customerID);
 
             //check the property
-            if (customer.PhoneNumber != "12345678900")
+            if (customer.phoneNumber != "12345678900")
             {
                 OK = false;
             }
@@ -326,7 +327,7 @@ namespace HotelTesting
             Found = customer.Find(customerID);
 
             //check the property
-            if (customer.DateOfbirth != "01/01/1999")
+            if (customer.dateOfbirth != Convert.ToDateTime("01/01/1999"))
             {
                 OK = false;
             }
@@ -354,7 +355,7 @@ namespace HotelTesting
         Found = customer.Find(customerID);
 
         //check the property
-        if (customer.Email != "me@yahoo.com")
+        if (customer.email != "me@yahoo.com")
         {
             OK = false;
         }

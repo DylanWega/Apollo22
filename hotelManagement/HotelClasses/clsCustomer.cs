@@ -4,19 +4,114 @@ namespace HotelClasses
 {
     public class clsCustomer
     {
-        private int customerID;
-        private string firstName;
-        private string phoneNumber;
-        private string lastName;
-        private string email;
-        private string dateOfbirth;
+        //private data member
+        private int mcustomerID;
 
-        public int CustomerID { get => customerID; set => customerID = value; }
-        public string FirstName { get => firstName; set => firstName = value; }
-        public string PhoneNumber { get => phoneNumber; set => phoneNumber = value; }
-        public string LastName { get => lastName; set => lastName = value; }
-        public string Email { get => email; set => email = value; }
-        public string DateOfbirth { get => dateOfbirth; set => dateOfbirth = value; }
+        //public property for customerID
+        public int customerID
+        {
+            get
+            {
+                //return private data
+                return mcustomerID;
+            }
+
+            set
+            {
+                //set private data
+                mcustomerID = value;
+            }
+        }
+        //private data member
+        private string mfirstName;
+        //public property for firstname
+        public string firstName
+        {
+            get
+            {
+                //return private data
+                return mfirstName;
+            }
+
+            set
+            {
+                //set private data
+                mfirstName = value;
+            }
+        }
+
+        //private data member
+        private string mphoneNumber;
+        //public property for phonemumber
+        public string phoneNumber
+        {
+            get
+            {
+                //return private data
+                return mphoneNumber;
+            }
+
+            set
+            {
+                //set private data
+                mphoneNumber = value;
+            }
+        }
+
+        //private data member
+        private string mlastName;
+        //public property for lastname
+        public string lastName
+        {
+            get
+            {
+                //return private data
+                return mlastName;
+            }
+
+            set
+            {
+                //set private data
+                mlastName = value;
+            }
+        }
+
+        //private data member
+        private string memail;
+        //public property for email
+        public string email
+        {
+            get
+            {
+                //return private data
+                return memail;
+            }
+
+            set
+            {
+                //set private data
+                memail = value;
+            }
+        }
+
+        //private data member
+        private DateTime mdateOfbirth;
+        public DateTime dateOfbirth
+        {
+            get
+            {
+                //return private data
+                return mdateOfbirth;
+            }
+
+            set
+            {
+                //set private data
+                mdateOfbirth = value;
+            }
+        }
+
+
 
         public string ValidName(string name)
         {
@@ -84,17 +179,31 @@ namespace HotelClasses
 
         public bool Find(int customerID)
         {
-            customerID = 1;
-            dateOfbirth = "01/01/1999";
-            email = "me@yahoo.com";
-            firstName = "Tom";
-            lastName = "Holland";
-            phoneNumber = "12345678900";
-
-            return true;
-
-
-           
+            
+            //create instance of data connection
+            clsDataConnection DB = new clsDataConnection();
+            //add the parameter for the customer no to search for
+            DB.AddParameter("@customerID", customerID);
+            
+            //execute the query
+            DB.Execute("sproc_Customer_FilterBycustomerID");
+            //if one record is found
+            if(DB.Count == 1)
+            {
+                mcustomerID = Convert.ToInt32(DB.DataTable.Rows[0]["customerID"]);
+                mdateOfbirth = Convert.ToDateTime(DB.DataTable.Rows[0]["dateOfbirth"]);
+                memail = Convert.ToString(DB.DataTable.Rows[0]["email"]);
+                mfirstName = Convert.ToString(DB.DataTable.Rows[0]["firstName"]);
+                mlastName = Convert.ToString(DB.DataTable.Rows[0]["lastName"]);
+                mphoneNumber = Convert.ToString(DB.DataTable.Rows[0]["phoneNumber"]);
+                //return that everything work
+                return true;
+            }
+            //if no record was found
+            else
+            {
+                return false;
+            }
         }
     }
 }
