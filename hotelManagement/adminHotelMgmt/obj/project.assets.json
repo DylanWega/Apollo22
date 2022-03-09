@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+      "projectUniqueName": "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
       "projectName": "adminHotelMgmt",
-      "projectPath": "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+      "projectPath": "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
       "packagesPath": "C:\\Users\\P2645492\\.nuget\\packages\\",
-      "outputPath": "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\obj\\",
+      "outputPath": "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
