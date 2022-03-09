@@ -13,3 +13,18 @@ H:\Desktop\apollo 22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\admi
 H:\Desktop\apollo 22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.dll
 H:\Desktop\apollo 22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.pdb
 H:\Desktop\apollo 22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.genruntimeconfig.cache
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.exe
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.deps.json
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.runtimeconfig.json
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.runtimeconfig.dev.json
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.dll
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.pdb
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.AssemblyReference.cache
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.Form1.resources
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.GenerateResource.cache
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.AssemblyInfoInputs.cache
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.AssemblyInfo.cs
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.CoreCompileInputs.cache
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.dll
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.pdb
+H:\Desktop\ap22\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.genruntimeconfig.cache

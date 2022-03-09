@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Desktop\\apollo 22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {}
+    "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {}
   },
   "projects": {
-    "H:\\Desktop\\apollo 22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {
+    "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Desktop\\apollo 22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+        "projectUniqueName": "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
         "projectName": "adminHotelMgmt",
-        "projectPath": "H:\\Desktop\\apollo 22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+        "projectPath": "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
         "packagesPath": "C:\\Users\\P2645492\\.nuget\\packages\\",
-        "outputPath": "H:\\Desktop\\apollo 22\\hotelManagement\\adminHotelMgmt\\obj\\",
+        "outputPath": "H:\\Desktop\\ap22\\hotelManagement\\adminHotelMgmt\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
