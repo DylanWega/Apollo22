@@ -81,6 +81,44 @@ namespace HotelTesting
         }
 
 
+        
+            
+            
+            
+
+
+        [TestMethod]
+        public void FirstnameOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //test to see that it exists
+            String TestData = "21";
+            //assign the data to the property
+            AStaff.Firstname = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.Firstname, TestData);
+
+        }
+
+
+
+
+
+
+        [TestMethod]
+        public void GenderOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //test to see that it exists
+            String TestData = "21";
+            //assign the data to the property
+            AStaff.Gender = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.Gender, TestData);
+
+        }
 
 
 
@@ -88,43 +126,105 @@ namespace HotelTesting
 
 
 
+        [TestMethod]
+        public void PswordOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //test to see that it exists
+            String TestData = "21";
+            //assign the data to the property
+            AStaff.Psword = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.Psword, TestData);
+
+        }
 
 
 
 
 
 
+        [TestMethod]
+        public void LastnameOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //test to see that it exists
+            String TestData = "21";
+            //assign the data to the property
+            AStaff.Lastname = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.Lastname, TestData);
+
+        }
+
+
+
+        [TestMethod]
+        public void PhoneNOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AStaff.PhoneN = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.PhoneN, TestData);
+        }
 
 
 
 
+        
+
+
+        [TestMethod]
+        public void PosOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //test to see that it exists
+            String TestData = "21";
+            //assign the data to the property
+            AStaff.Pos = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.Pos, TestData);
+
+        }
+
+
+        
+            
+
+        [TestMethod]
+        public void StockIDOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AStaff.StockID = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.StockID, TestData);
+        }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        [TestMethod]
+        public void SupplierIDOK()
+        {
+            //create an instance of the class we want to create
+            clsStaff AStaff = new clsStaff();
+            //create some test data to assign to the property
+            Int32 TestData = 1;
+            //assign the data to the property
+            AStaff.SupplierID = TestData;
+            //test to see that the two values are the same
+            Assert.AreEqual(AStaff.SupplierID, TestData);
+        }
 
 
 
