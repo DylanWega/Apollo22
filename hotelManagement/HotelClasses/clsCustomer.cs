@@ -177,6 +177,94 @@ namespace HotelClasses
             return Error;
         }
 
+        public string Valid(string firstname, string lastname, string email, string phonenumber, string dateofbirth)
+        {
+            //variable to store the error
+            string Error = "";
+
+            //temporary variable to store date
+            DateTime dateTemp;
+
+            //if firstname is blank
+            if(firstname.Length == 0)
+            {
+                //record the error
+                Error = Error + "First name cannot be blank ";
+            }
+
+            //if first name is longer than 20 characters
+            if (firstname.Length > 20)
+            {
+                Error = Error + "The first name must be maximum 20 characters ";
+            }
+
+            //if lastname is blank
+            if (lastname.Length == 0)
+            {
+                //record the error
+                Error = Error + "last name cannot be blank ";
+            }
+
+            //if the last name is longer than 20 characters
+            if (lastname.Length > 20)
+            {
+                Error = Error + "The last name must be maximum 20 characters ";
+            }
+
+            //if email is blank
+            if (email.Length == 0)
+            {
+                //record the error
+                Error = Error + "Email cannot be blank ";
+            }
+
+            //if emai is longer than 20 characters
+            if (email.Length > 20)
+            {
+                Error = Error + "Email must be maximum 20 characters ";
+            }
+
+            //if email does not have a @ or .
+            if (!email.Contains("@") && !email.Contains("."))
+            {
+                Error = Error + "Please enter a valid email ";
+            }
+
+            if (phonenumber.Length == 0)
+            {
+                Error = Error + "Phone number cannot be empty ";
+            }
+
+            //phonenumber should be equal to 12 digits. Country code excluded
+            if (phonenumber.Length != 12)
+            {
+                Error = Error +  "Enter a valid phone number ";
+            }
+
+            //copy dateOfbirth value to the dateTemp variable
+            dateTemp = Convert.ToDateTime(dateofbirth);
+
+            //if dateOfbirth is less than 16 years
+            //using DateTime.Today because it sets the time at
+            //00:00 instead of Now which gives the actual time
+
+            if (dateTemp > DateTime.Today.AddYears(-16))
+            {
+                //record error
+                Error = Error + "You are too young to have an account ";
+            }
+
+
+            //if dateOfbirth is 80 years in the future
+            if (dateTemp >= DateTime.Today.Date)
+            {
+                //record error
+                Error = Error + "You cannot be born today nor in the future ";
+            }
+            //return error message
+            return Error;
+        }
+
         public bool Find(int customerID)
         {
             
