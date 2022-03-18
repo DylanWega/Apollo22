@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -14,3 +15,53 @@ C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManage
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.dll
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.pdb
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CopyComplete
+=======
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\HotelTesting.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\HotelTesting.pdb
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\HotelClasses.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\HotelClasses.pdb
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.AssemblyReference.cache
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CoreCompileInputs.cache
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CopyComplete
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.dll
+H:\Desktop\apollo 22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.pdb
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\HotelTesting.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\HotelTesting.pdb
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\HotelClasses.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\HotelClasses.pdb
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Desktop\ap22\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Desktop\ap22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.AssemblyReference.cache
+H:\Desktop\ap22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CoreCompileInputs.cache
+H:\Desktop\ap22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CopyComplete
+H:\Desktop\ap22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.dll
+H:\Desktop\ap22\hotelManagement\HotelTesting\obj\Debug\HotelTesting.pdb
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\HotelTesting.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\HotelTesting.pdb
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\HotelClasses.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\HotelClasses.pdb
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Desktop\oka\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Desktop\oka\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.AssemblyReference.cache
+H:\Desktop\oka\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CoreCompileInputs.cache
+H:\Desktop\oka\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CopyComplete
+H:\Desktop\oka\hotelManagement\HotelTesting\obj\Debug\HotelTesting.dll
+H:\Desktop\oka\hotelManagement\HotelTesting\obj\Debug\HotelTesting.pdb
+>>>>>>> 3d8e6b4c9472f66bdb12a3cb7925618bdef7e195

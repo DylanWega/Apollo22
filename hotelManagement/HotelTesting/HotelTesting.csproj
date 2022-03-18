@@ -51,14 +51,22 @@
   <ItemGroup>
     <Compile Include="tstclsCustomerCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="tstCustomer.cs" />
+=======
+    <Compile Include="Staff\tstStaff.cs" />
+>>>>>>> 3d8e6b4c9472f66bdb12a3cb7925618bdef7e195
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HotelClasses\HotelClasses.csproj">
+<<<<<<< HEAD
       <Project>{24B348B8-886C-447D-A913-3F80A189C7B8}</Project>
+=======
+      <Project>{24b348b8-886c-447d-a913-3f80a189c7b8}</Project>
+>>>>>>> 3d8e6b4c9472f66bdb12a3cb7925618bdef7e195
       <Name>HotelClasses</Name>
     </ProjectReference>
   </ItemGroup>

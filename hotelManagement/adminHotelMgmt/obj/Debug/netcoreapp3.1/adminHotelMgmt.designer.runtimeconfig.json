@@ -7,7 +7,8 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\dylan\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\dylan\\.nuget\\packages"
+      "C:\\Users\\P2645492\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
