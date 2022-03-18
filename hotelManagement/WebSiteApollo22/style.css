@@ -1,0 +1,156 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 39, 100)
+}
+
+.navbar {
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 13px;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.active {
+    display: inline-block;
+    color: grey;
+}
+
+a:hover {
+    color: grey;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'century gothic';
+}
+
+li {
+    display: inline-block;
+    padding: 0px 13px;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar .logo {
+    float: left;
+    width: 180px;
+    height: auto;
+    padding: 10px 10px;
+    margin-left: 5px;
+}
+
+.navbar .icon {
+    float: left;
+    width: 19px;
+    height: auto;
+    padding: 10px 13px;
+    margin-top: 20px;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.banner {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    margin-top: 5%;
+    height: 100vh;
+}
+
+    .banner .logo2 {
+        float: right;
+        width: 500px;
+        height: auto;
+        margin: 100px 410px;
+    }
+
+    .banner h1 {
+        font-family: 'century gothic';
+        margin: 150 200px;
+        padding-right: 230px;
+        float: right;
+        color: white;
+        font-size: 60px;
+        margin-top: -70px;
+    }
+
+    .banner button {
+        margin: 305px -400px;
+        margin-top: 10px;
+        float: right;
+        background-color: rgb(0, 39, 100);
+        color: white;
+        text-align: center;
+        border: 1px solid white;
+        padding: 10px 25px;
+        font-family: 'century gothic';
+        border-radius: 12px;
+    }
+
+        .banner button:hover {
+            background-color: white;
+            color: rgb(0, 39, 100);
+            border: 1px solid blue;
+            border-radius: 12px;
+        }
+
+.btn {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 7px 15px;
+    font-family: 'century gothic';
+    cursor: pointer;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.btn2 {
+    float: right;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    margin-top: 25px;
+    margin-right: 15px;
+    margin-left: 40px;
+    font-family: 'century gothic';
+    cursor: pointer;
+    width: 95%;
+    border-radius: 12px;
+    padding: 7px 10px;
+}
+
+    .btn2:hover {
+        background-color: white;
+        color: rgb(0, 39, 100);
+        border: 1px solid blue;
+        border-radius: 12px;
+    }
