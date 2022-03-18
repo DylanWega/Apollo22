@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {}
+    "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {}
   },
   "projects": {
-    "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {
+    "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+        "projectUniqueName": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
         "projectName": "adminHotelMgmt",
-        "projectPath": "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
-        "packagesPath": "C:\\Users\\P2645492\\.nuget\\packages\\",
-        "outputPath": "H:\\Desktop\\oka\\hotelManagement\\adminHotelMgmt\\obj\\",
+        "projectPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+        "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\P2645492\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -71,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },

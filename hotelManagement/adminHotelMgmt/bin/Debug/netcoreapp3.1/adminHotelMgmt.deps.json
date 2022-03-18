@@ -7,7 +7,6 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "adminHotelMgmt/1.0.0": {
-<<<<<<< HEAD
         "dependencies": {
           "HotelClasses": "1.0.0",
           "System.Data.SqlClient": "4.8.3"
@@ -95,11 +94,6 @@
         "runtime": {
           "HotelClasses.dll": {}
         }
-=======
-        "runtime": {
-          "adminHotelMgmt.dll": {}
-        }
->>>>>>> 3d8e6b4c9472f66bdb12a3cb7925618bdef7e195
       }
     }
   },
@@ -108,7 +102,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-<<<<<<< HEAD
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",
@@ -177,8 +170,6 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
-=======
->>>>>>> 3d8e6b4c9472f66bdb12a3cb7925618bdef7e195
     }
   }
 }
