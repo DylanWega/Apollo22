@@ -5,11 +5,12 @@ using System.Web;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Data;
-//using ClassControlLib; -> class lib
+//using ClassControlLib; -> class lib 
 
 namespace HotelClasses
 {
-    class clsDataConnection
+
+    public class clsDataConnection
     {
         //connection object used to connect to the database
         SqlConnection connectionToDB = new SqlConnection();

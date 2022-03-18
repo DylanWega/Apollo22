@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\hotelManagement",
+    "\\hotelManagement\\HotelClasses",
+    "\\hotelManagement\\HotelTesting",
+    "\\hotelManagement\\WebSiteApollo22"
   ],
-  "SelectedNode": "\\hotelManagement.sln",
+  "SelectedNode": "\\hotelManagement\\hotelManagement.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,18 +1,6 @@
-H:\Desktop\apollo 22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
-H:\Desktop\apollo 22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
-H:\Desktop\apollo 22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
-H:\Desktop\apollo 22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
-H:\Desktop\apollo 22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
-H:\Desktop\apollo 22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb
-H:\Desktop\ap22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
-H:\Desktop\ap22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
-H:\Desktop\ap22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
-H:\Desktop\ap22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
-H:\Desktop\ap22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
-H:\Desktop\ap22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb
-H:\Desktop\oka\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
-H:\Desktop\oka\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
-H:\Desktop\oka\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
-H:\Desktop\oka\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
-H:\Desktop\oka\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
-H:\Desktop\oka\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb
