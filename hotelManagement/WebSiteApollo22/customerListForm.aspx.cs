@@ -31,4 +31,14 @@ public partial class customerListForm : System.Web.UI.Page
         //bind the data to the list
         listCustomers.DataBind();
     }
+
+    //event handler for the add button
+    protected void addBtn_Click(object sender, EventArgs e)
+    {
+        //store -1 into the session object to indicate this is a new record
+        Session["CustomerID"] = -1;
+        // to the data entry page
+        Response.Redirect("customerCreateAccount.aspx");
+
+    }
 }
