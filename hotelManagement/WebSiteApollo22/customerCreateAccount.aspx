@@ -113,7 +113,7 @@
             <tr>
             <td class="auto-style10"></td>
             <td class="auto-style11">
-                <asp:Button ID="createBtn" runat="server" OnClick="createBtn_Click" Text="Create Account" />
+                <asp:Button ID="createBtn" runat="server" OnClick="createBtn_Click" Text="Submit" />
                 </td>
             <td class="auto-style12">
                 <asp:Button ID="backBtn" runat="server" Text="Back" />

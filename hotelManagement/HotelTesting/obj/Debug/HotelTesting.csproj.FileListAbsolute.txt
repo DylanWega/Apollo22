@@ -11,6 +11,6 @@ C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManage
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.AssemblyReference.cache
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CoreCompileInputs.cache
-C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CopyComplete
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.dll
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.pdb
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelTesting\obj\Debug\HotelTesting.csproj.CopyComplete

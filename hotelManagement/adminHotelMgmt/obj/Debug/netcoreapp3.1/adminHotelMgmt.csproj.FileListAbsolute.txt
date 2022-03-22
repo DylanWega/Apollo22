@@ -23,3 +23,4 @@ C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManage
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.dll
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.pdb
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.genruntimeconfig.cache
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.CopyComplete

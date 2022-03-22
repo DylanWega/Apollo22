@@ -97,5 +97,33 @@ namespace HotelClasses
             //execute the query returning the primary key value
             return DB.Execute("sproc_Customer_Insert");
         }
+
+
+        public void Delete()
+        {
+            //delete the record pointed to by thisCustomer
+            //connect to the database
+            clsDataConnection DB = new clsDataConnection();
+            //set the paramteters for the store procedure
+            DB.AddParameter("@customerID", mThisCustomer.customerID);
+            //execute the stored procedure
+            DB.Execute("sproc_Customer_Delete");
+        }
+
+        public void Update()
+        {
+            //update an existing record based on the values of thisCustomer
+            //connect to the databse
+            clsDataConnection DB = new clsDataConnection();
+            //set the paramteters for the store procedure
+            DB.AddParameter("@customerID", mThisCustomer.customerID);
+            DB.AddParameter("@dateOfbirth", mThisCustomer.dateOfbirth);
+            DB.AddParameter("@email", mThisCustomer.email);
+            DB.AddParameter("@firstName", mThisCustomer.firstName);
+            DB.AddParameter("@lastName", mThisCustomer.lastName);
+            DB.AddParameter("@phoneNumber", mThisCustomer.phoneNumber);
+            //execute stored procedure
+            DB.Execute("sproc_Customer_Update");
+        }
     }
 }

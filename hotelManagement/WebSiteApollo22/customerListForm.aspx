@@ -52,11 +52,20 @@
                 <asp:Button ID="addBtn" runat="server" Text="Add" OnClick="addBtn_Click" />
                  </td>
             <td class="auto-style5">
-                <asp:Button ID="updateBtn" runat="server" Text="Update" />
+                <asp:Button ID="updateBtn" runat="server" Text="Update" OnClick="updateBtn_Click" />
                  </td>
             <td class="auto-style6">
-                <asp:Button ID="deleteBtn" runat="server" Text="Delete" />
+                <asp:Button ID="deleteBtn" runat="server" Text="Delete" OnClick="deleteBtn_Click" />
+                 </td>                 
+        </tr>
+             <tr>
+            <td class="auto-style10">
                  </td>
+            <td class="auto-style5">
+                 <asp:Label ID="lblError" runat="server" Text="."></asp:Label>
+                 </td>
+            <td class="auto-style6">
+                 </td>                 
         </tr>
         </table>
 

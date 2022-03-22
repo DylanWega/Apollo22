@@ -11,4 +11,10 @@ public partial class customerViewer : System.Web.UI.Page
     {
 
     }
+
+    protected void logOutBtn_Click(object sender, EventArgs e)
+    {
+        //redirect to main page
+        Response.Redirect("main.aspx");
+    }
 }
