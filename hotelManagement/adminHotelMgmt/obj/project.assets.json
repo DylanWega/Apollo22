@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+      "projectUniqueName": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProjectLatest\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
       "projectName": "adminHotelMgmt",
-      "projectPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
+      "projectPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProjectLatest\\hotelManagement\\adminHotelMgmt\\adminHotelMgmt.csproj",
       "packagesPath": "C:\\Users\\dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\adminHotelMgmt\\obj\\",
+      "outputPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProjectLatest\\hotelManagement\\adminHotelMgmt\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -495,8 +495,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\HotelClasses\\HotelClasses.csproj": {
-              "projectPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProject\\hotelManagement\\HotelClasses\\HotelClasses.csproj"
+            "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProjectLatest\\hotelManagement\\HotelClasses\\HotelClasses.csproj": {
+              "projectPath": "C:\\Users\\dylan\\Desktop\\Dmu 2nd year\\Project Management\\apolloProjectLatest\\hotelManagement\\HotelClasses\\HotelClasses.csproj"
             }
           }
         }

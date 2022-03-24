@@ -148,4 +148,9 @@ public partial class customerCreateAccount : System.Web.UI.Page
             Errorlbl.Text = Error;
         }
     }
+
+    protected void backBtn_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("main.aspx");
+    }
 }
