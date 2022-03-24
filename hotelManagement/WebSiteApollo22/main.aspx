@@ -1,80 +1,56 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="main.aspx.cs" Inherits="main" %>
 
 <!DOCTYPE html>
-
+ 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
     <style type="text/css">
-        .auto-style7 {
-            width: 1037px;
-            height: 537px;
-        }
-        .auto-style17 {
-            width: 223px;
-            height: 31px;
+        .auto-style1 {
+            float: right;
+            background-color: transparent;
+            color: white;
             text-align: center;
-        }
-        .auto-style18 {
-            width: 201px;
-            height: 31px;
-            text-align: right;
-        }
-        .auto-style19 {
-            width: 220px;
-            height: 31px;
-        }
-        .auto-style20 {
-            width: 223px;
-            height: 24px;
-        }
-        .auto-style21 {
-            width: 201px;
-            height: 24px;
-        }
-        .auto-style22 {
-            width: 220px;
-            height: 24px;
-        }
-        .auto-style23 {
-            width: 223px;
-            height: 13px;
-        }
-        .auto-style24 {
-            width: 201px;
-            height: 13px;
-        }
-        .auto-style25 {
-            width: 220px;
-            height: 13px;
+            border: 1px solid white;
+            margin-top: 25px;
+            margin-right: 15px;
+            margin-left: 40px;
+            font-family: 'century gothic';
+            cursor: pointer;
+            border-radius: 12px;
+            padding: 7px 10px;
         }
     </style>
 </head>
+    <!--The title/navigation bar-->
 <body style="background-color:antiquewhite">
     <form id="form1" runat="server">
-        <table class="auto-style7">
-        <tr>
-            <td class="auto-style17">
-                <asp:Button ID="signupBtn" runat="server" Text="Sign Up" OnClick="signupBtn_Click" />
-            </td>
-            <td class="auto-style18">
-                <asp:Button ID="bookBtn" runat="server" Text="Book a room" />
-            </td>
-            <td class="auto-style19"></td>
-        </tr>
-        <tr>
-            <td class="auto-style20"></td>
-            <td class="auto-style21">
-                <asp:Image ID="Image1" runat="server" Height="212px" ImageUrl="~/img/Apollo 22 blue.png" Width="365px" />
-            </td>
-            <td class="auto-style22"></td>
-        </tr>
-             <tr>
-            <td class="auto-style23"></td>
-            <td class="auto-style24"></td>
-            <td class="auto-style25"></td>
-        </tr>
-        </table>
+        <nav class="navbar">
+        <img src="img/Apollo 22 white.png" class="logo">
+    <ul>
+        <li> <a class="active" href="main.aspx">Home</a></li>
+        <li> <a href="#">Rooms</a></li>
+        <li> <a href="#">About us</a> </li>
+    </ul>
+
+    <ul style="float: right;">
+        <asp:Button ID="Button1" runat="server" Text="Sign Up" OnClick="signupBtn_Click" CssClass="btn2" />
+    </ul>
+
+    
+    </nav>
+        <!--The title/navigation bar ENDS-->
+
+<!--Banner/Header STARTS--> 
+        <div class="banner">
+    <img src="img/Apollo 22 white.png" class="logo2">
+    <h1>Rooms & Suits on the Moon</h1> <br>
+    <asp:Button ID="Button2" runat="server" Text="Book now" CssClass="btn2"/>   
+</div>
+            
     </form>
 </body>
 </html>

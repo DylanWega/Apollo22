@@ -200,5 +200,42 @@ namespace HotelTesting
             //test to see ThisCustomers matches the test data
             Assert.AreEqual(AllCustomers.ThisCustomer, TestCustomer);
         }
+
+        [TestMethod]
+        public void ReportByLastNameMethodOK()
+        {
+            //creating an instance of the class
+            clsCustomerCollection AllCustomers = new clsCustomerCollection();
+            //create an instance of the filtered data
+            clsCustomerCollection FilteredCustomer = new clsCustomerCollection();
+            //apply a blank string
+            FilteredCustomer.ReportByLastName("");
+            //test to see that the two values are the same
+            Assert.AreEqual(AllCustomers.Count, FilteredCustomer.Count);
+        }
+
+        [TestMethod]
+        public void ReportByLastNameNoneFound()
+        {
+            //create an instance of the filtered data
+            clsCustomerCollection FilteredCustomer = new clsCustomerCollection();
+            //apply a blank string
+            FilteredCustomer.ReportByLastName("LastName");
+            //test to see that the two values are the same
+            Assert.AreEqual(0, FilteredCustomer.Count);
+        }
+
+        //[TestMethod]
+        //public void ReportByLastNameTestDataFound()
+        //{
+        //    //create an instance of the filtered data
+        //    clsCustomerCollection FilteredCustomer = new clsCustomerCollection();
+        //    //var to store outcome
+        //    Boolean OK = true;
+        //    //apply a blank string
+        //    FilteredCustomer.ReportByLastName("LastName");
+        //    //test to see that the two values are the same
+        //    Assert.AreEqual(0, FilteredCustomer.Count);
+        //}
     }
 }

@@ -16,6 +16,8 @@ public partial class customerListForm : System.Web.UI.Page
             //update the list box
             DisplayCustomers();
         }
+
+        
     }
 
     private void DisplayCustomers()
@@ -85,4 +87,21 @@ public partial class customerListForm : System.Web.UI.Page
             lblError.Text = "Please select the record to be updated";
         }
     }
+
+
+    protected void searchBtn_Click(object sender, EventArgs e)
+    {
+        //create an instance of clsCustomer
+        clsCustomerCollection AllCustomer = new clsCustomerCollection();
+        //capture last name
+        AllCustomer.ThisCustomer.lastName = txtFilter.Text;
+        AllCustomer.ReportByLastName(txtFilter.Text);
+        
+
+        listCustomers.DataSource = AllCustomer.CustomerList;
+        //set the name of the primary key
+        listCustomers.DataValueField = "customerID";
+        //set the data field to display
+        listCustomers.DataTextField = "lastName";
     }
+}

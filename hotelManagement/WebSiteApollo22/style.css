@@ -154,3 +154,83 @@ li {
         border: 1px solid blue;
         border-radius: 12px;
     }
+
+    .account{
+        background-image: url(img/space01.jpg);
+    }
+
+.textBox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 9px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+    font-family: 'century gothic';
+}
+
+    .textBox input {
+        border: none;
+        outline: none;
+        background: none;
+        color: white;
+        font-size: 18px;
+        font-family: 'century gothic';
+        float: left;
+        width: 80%;
+        margin: 0 10px;
+    }
+
+.textBox2 {
+    width: 35%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 4.5px 0;
+    margin: 7px 0;
+    border-bottom: 2px solid black;
+    font-family: 'century gothic';
+}
+
+    .textBox2 input {
+        border: none;
+        outline: none;
+        background: none;
+        color: black;
+        font-size: 18px;
+        font-family: 'century gothic';
+        float: left;
+        width: 100%;
+        margin: 3px 10px;
+    }
+
+        .textBox2 input::placeholder {
+            color: black;
+            font-family: 'century gothic';
+        }
+
+.textBox3 {
+    width: 5%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 4.5px 0;
+    margin: 7px 0;
+    border-bottom: 2px solid black;
+    font-family: 'century gothic';
+}
+
+    .textBox3 input {
+        border: none;
+        outline: none;
+        background: none;
+        color: black;
+        font-size: 18px;
+        font-family: 'century gothic';
+        float: left;
+        width: 100%%;
+        margin: 3px 10px;
+    }
+
+        .textBox3 input::placeholder {
+            color: black;
+            font-family: 'century gothic';
+        }     
