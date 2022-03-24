@@ -216,7 +216,7 @@ namespace HotelTesting
             TestItem.stockid = 1;
             TestItem.supplierid = 1;
             TestItem.Address = "Test";
-            TestItem.Dateofbirth = "Test";
+            TestItem.Dateofbirth = "23/03/2022 00:00:00";
             TestItem.Email = "Test";
             TestItem.Firstname = "Test";
             TestItem.gender = "Test";
