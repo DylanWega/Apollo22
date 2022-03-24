@@ -4,9 +4,3 @@ C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManage
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb
-H:\Desktop\Project Management\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
-H:\Desktop\Project Management\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
-H:\Desktop\Project Management\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
-H:\Desktop\Project Management\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
-H:\Desktop\Project Management\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
-H:\Desktop\Project Management\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb

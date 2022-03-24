@@ -16,6 +16,8 @@ public partial class customerListForm : System.Web.UI.Page
             //update the list box
             DisplayCustomers();
         }
+
+        
     }
 
     private void DisplayCustomers()
@@ -40,5 +42,66 @@ public partial class customerListForm : System.Web.UI.Page
         // to the data entry page
         Response.Redirect("customerCreateAccount.aspx");
 
+    }
+
+    protected void deleteBtn_Click(object sender, EventArgs e)
+    {    
+        //var to store the primary key value of the record to be deleted
+        Int32 customerID;
+        //if a record has been selected fron the list
+        if(listCustomers.SelectedIndex != -1)
+        {
+            //get the primary key for the value of the record to be deleted
+            customerID = Convert.ToInt32(listCustomers.SelectedValue);
+            //store the data in the session object
+            Session["customerID"] = customerID;
+            //confirmation message
+            Response.Redirect("Delete.aspx");
+        }
+        //if no record has been selected
+        else 
+        {
+            //display an error
+            lblError.Text = "Please select the record to be deleted";
+        }
+    }
+
+    protected void updateBtn_Click(object sender, EventArgs e)
+    {
+        //var to store the primary key value of the record to be edited
+        Int32 customerID;
+        //if a record has been selected from the list
+        if (listCustomers.SelectedIndex != -1)
+        {
+            //get the primary key value of the record to get updated
+            customerID = Convert.ToInt32(listCustomers.SelectedValue);
+            //store the data in the session object
+            Session["customerID"] = customerID;
+            //confirmation message
+            Response.Redirect("customerCreateAccount.aspx");
+        }
+        //if no record has been selected
+        else
+        {
+            //display an error
+            lblError.Text = "Please select the record to be updated";
+        }
+    }
+
+
+    protected void searchBtn_Click(object sender, EventArgs e)
+    {
+        //create an instance of clsCustomer
+        clsCustomerCollection AllCustomer = new clsCustomerCollection();
+        //capture last name
+        AllCustomer.ThisCustomer.lastName = txtFilter.Text;
+        AllCustomer.ReportByLastName(txtFilter.Text);
+        
+
+        listCustomers.DataSource = AllCustomer.CustomerList;
+        //set the name of the primary key
+        listCustomers.DataValueField = "customerID";
+        //set the data field to display
+        listCustomers.DataTextField = "lastName";
     }
 }

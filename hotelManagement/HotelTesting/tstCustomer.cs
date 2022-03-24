@@ -320,7 +320,7 @@ namespace HotelTesting
             Found = customer.Find(customerID);
 
             //check the property
-            if (customer.phoneNumber != "12345678900")
+            if (customer.phoneNumber != "123456789000")
             {
                 OK = false;
             }
@@ -348,7 +348,7 @@ namespace HotelTesting
             Found = customer.Find(customerID);
 
             //check the property
-            if (customer.dateOfbirth != Convert.ToDateTime("01/01/1999"))
+            if (customer.dateOfbirth != Convert.ToDateTime("02/01/1999"))
             {
                 OK = false;
             }

@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title></title>
     <style type="text/css">
         .auto-style5 {
@@ -30,15 +31,29 @@
             width: 296px;
             height: 213px;
         }
+        .auto-style12 {
+            width: 296px;
+            height: 90px;
+            text-align: right;
+        }
+        .auto-style13 {
+            width: 279px;
+            height: 90px;
+            text-align: center;
+        }
     </style>
 </head>
-<body>
+<body style="width: 963px; height: 392px; background-color:rgb(0, 39, 100)">
     <form id="form1" runat="server">
         <table class="auto-style15">
         <tr>
             <td class="auto-style10"></td>
-            <td class="auto-style5"></td>
-            <td class="auto-style6"></td>
+            <td class="auto-style5">
+                <asp:TextBox ID="txtFilter" runat="server" Width="266px"></asp:TextBox>
+            </td>
+            <td class="auto-style6">
+                <asp:Button ID="searchBtn" runat="server" OnClick="searchBtn_Click" Text="Search" CssClass="btn2" />
+            </td>
         </tr>
         <tr>
             <td class="auto-style11"></td>
@@ -49,14 +64,24 @@
         </tr>
              <tr>
             <td class="auto-style10">
-                <asp:Button ID="addBtn" runat="server" Text="Add" OnClick="addBtn_Click" />
+                <asp:Button ID="addBtn" runat="server" Text="Add" OnClick="addBtn_Click" CssClass="btn2"/>
                  </td>
             <td class="auto-style5">
-                <asp:Button ID="updateBtn" runat="server" Text="Update" />
+                <asp:Button ID="updateBtn" runat="server" Text="Update" OnClick="updateBtn_Click" CssClass="btn2" />
                  </td>
             <td class="auto-style6">
-                <asp:Button ID="deleteBtn" runat="server" Text="Delete" />
+                <asp:Button ID="deleteBtn" runat="server" Text="Delete" OnClick="deleteBtn_Click" CssClass="btn2" />
+                 </td>                 
+        </tr>
+             <tr>
+            <td class="auto-style12">
+                 &nbsp;</td>
+            <td class="auto-style13">
+                 <asp:Label ID="lblError" runat="server" Text="."></asp:Label>
+                 <asp:Button ID="displayAllBtn" runat="server" Text="Display All" CssClass="btn2" />
                  </td>
+            <td class="auto-style6">
+                 </td>                 
         </tr>
         </table>
 

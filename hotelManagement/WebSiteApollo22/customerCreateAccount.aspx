@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title></title>
     <style type="text/css">
         .auto-style7 {
@@ -50,45 +51,56 @@
         }
     </style>
 </head>
-<body>
+<body style="background-image:url('img/space01.jpg'); background-size:cover; margin-top: 5%; height: 100vh">
     <form id="form1" runat="server">
+        <nav class="navbar">
+        <img src="img/Apollo 22 white.png" class="logo">
+    <ul>
+        <li> <a class="active" href="main.aspx">Home</a></li>
+        <li> <a href="#">Rooms</a></li>
+        <li> <a href="#">About us</a> </li>
+    </ul>
+
+   
+    
+    </nav>
         <table class="auto-style13">
         <tr>
             <td class="auto-style14"></td>
-            <td class="auto-style15">Create Account</td>
+            <td class="auto-style15"><asp:Label ID="Label0" runat="server" Text="Create Account" ForeColor="White" Font-Names="century gothic" Font-Size="X-Large"></asp:Label></td>
             <td class="auto-style16"></td>
         </tr>
         <tr>
             <td class="auto-style7"></td>
             <td class="auto-style8">
-                <asp:Label ID="Label1" runat="server" Text="First Name"></asp:Label>
+                <asp:Label ID="Label1" runat="server" Text="First Name" ForeColor="White" Font-Names="century gothic" ></asp:Label>
             </td>
             <td class="auto-style9">
-                <asp:TextBox ID="txtfname" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtfname" runat="server" ></asp:TextBox>
             </td>
         </tr>
              <tr>
             <td class="auto-style10"></td>
             <td class="auto-style11">
-                <asp:Label ID="Label2" runat="server" Text="Last Name"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Last Name" ForeColor="White" Font-Names="century gothic"></asp:Label>
                  </td>
             <td class="auto-style12">
-                <asp:TextBox ID="txtLname" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtLname" runat="server" ></asp:TextBox>
                  </td>
         </tr>
             <tr>
             <td class="auto-style10"></td>
             <td class="auto-style11">
-                <asp:Label ID="Label3" runat="server" Text="Date of birth"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Date of birth" ForeColor="White" Font-Names="century gothic"></asp:Label>
                  </td>
             <td class="auto-style12">
-                <asp:TextBox ID="txtDOB" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtDOB" runat="server" ></asp:TextBox>
                 </td>
         </tr>
             <tr>
             <td class="auto-style10"></td>
             <td class="auto-style11">
-                <asp:Label ID="Label4" runat="server" Text="Email"></asp:Label>
+                <asp:Label ID="Label4" runat="server" Text="Email" ForeColor="White" Font-Names="century gothic"></asp:Label>
                  </td>
             <td class="auto-style12">
                 <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
@@ -97,29 +109,29 @@
             <tr>
             <td class="auto-style10"></td>
             <td class="auto-style11">
-                <asp:Label ID="Label5" runat="server" Text="Phone number" ></asp:Label>
+                <asp:Label ID="Label5" runat="server" Text="Phone number" Font-Names="century gothic" ForeColor="White" ></asp:Label>
                  </td>
             <td class="auto-style12">
-                <asp:TextBox ID="txtphone" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtphone" runat="server" ></asp:TextBox>
                 </td>
         </tr>
             <tr>
             <td class="auto-style10"></td>
             <td class="auto-style11">
-                <asp:Label ID="Errorlbl" runat="server" Text="."></asp:Label>
+                <asp:Label ID="Errorlbl" runat="server" Text="." Font-Names="century gothic"></asp:Label>
                 </td>
             <td class="auto-style12"></td>
         </tr>
             <tr>
             <td class="auto-style10"></td>
             <td class="auto-style11">
-                <asp:Button ID="createBtn" runat="server" OnClick="createBtn_Click" Text="Create Account" />
+                <asp:Button ID="createBtn" runat="server" OnClick="createBtn_Click" Text="Submit" CssClass="btn2"/>
                 </td>
             <td class="auto-style12">
-                <asp:Button ID="backBtn" runat="server" Text="Back" />
+                <asp:Button ID="backBtn" runat="server" Text="Back" CssClass="btn2"/>
                 </td>
         </tr>
         </table>
-    </form>
+           </form>
 </body>
 </html>

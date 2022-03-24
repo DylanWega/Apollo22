@@ -14,7 +14,7 @@ public partial class main : System.Web.UI.Page
 
     protected void signupBtn_Click(object sender, EventArgs e)
     {
-        //redirect to te main page
+        //redirect to create account page
         Response.Redirect("customerCreateAccount.aspx");
     }
 }

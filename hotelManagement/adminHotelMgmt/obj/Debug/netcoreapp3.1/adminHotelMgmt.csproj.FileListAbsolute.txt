@@ -20,31 +20,7 @@ C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManage
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.AssemblyInfoInputs.cache
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.AssemblyInfo.cs
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.CoreCompileInputs.cache
+C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.CopyComplete
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.dll
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.pdb
 C:\Users\dylan\Desktop\Dmu 2nd year\Project Management\apolloProject\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.genruntimeconfig.cache
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.exe
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.deps.json
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.runtimeconfig.json
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.runtimeconfig.dev.json
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\adminHotelMgmt.pdb
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\HotelClasses.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\bin\Debug\netcoreapp3.1\HotelClasses.pdb
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.AssemblyReference.cache
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.FindFormCustomer.resources
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.ListFormCustomer.resources
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.GenerateResource.cache
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.AssemblyInfoInputs.cache
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.AssemblyInfo.cs
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.CoreCompileInputs.cache
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.csproj.CopyComplete
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.dll
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.pdb
-H:\Desktop\Project Management\hotelManagement\adminHotelMgmt\obj\Debug\netcoreapp3.1\adminHotelMgmt.genruntimeconfig.cache
