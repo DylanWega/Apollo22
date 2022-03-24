@@ -41,10 +41,15 @@
             height: 90px;
             text-align: center;
         }
+        .auto-style14 {
+            text-align: center;
+        }
     </style>
 </head>
 <body style="width: 963px; height: 392px; background-color:rgb(0, 39, 100)">
     <form id="form1" runat="server">
+                <div class="auto-style14">
+                <asp:Label ID="Label16" runat="server" Text="Admin Dashboard" ForeColor="White" Font-Names="century gothic" Font-Size="XX-Large"></asp:Label>
         <table class="auto-style15">
         <tr>
             <td class="auto-style10"></td>
@@ -84,6 +89,8 @@
                  </td>                 
         </tr>
         </table>
+
+                </div>
 
     </form>
 </body>
