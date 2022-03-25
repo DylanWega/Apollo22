@@ -8,6 +8,7 @@ EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSiteApollo22", "WebSiteApollo22\", "{7B2DF766-B586-46A2-856F-ABEE040A2AC3}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{24b348b8-886c-447d-a913-3f80a189c7b8}|HotelClasses.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_58073"
 		Debug.AspNetCompiler.PhysicalPath = "WebSiteApollo22\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58073\"

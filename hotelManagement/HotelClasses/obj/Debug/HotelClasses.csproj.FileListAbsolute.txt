@@ -1,0 +1,12 @@
+D:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
+D:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
+E:\Apollo22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
+E:\Apollo22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
+E:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.AssemblyReference.cache
+E:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.csproj.CoreCompileInputs.cache
+E:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
+E:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb
+D:\Apollo22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.dll
+D:\Apollo22\hotelManagement\HotelClasses\bin\Debug\HotelClasses.pdb
+D:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.dll
+D:\Apollo22\hotelManagement\HotelClasses\obj\Debug\HotelClasses.pdb

@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\hotelManagement",
+    "\\hotelManagement\\HotelTesting"
   ],
   "PreviewInSolutionExplorer": false
 }
